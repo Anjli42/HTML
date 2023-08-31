@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice-3</title>
+</head>
+
+<body>
+    <table BORDER="2" ALIGN="center" width="80%" ellspacing="2" cellpadding="2">
+        <caption style="font-weight: bolder; font-size: 1.8rem;" ALIGN="center">NASTED TABLE</caption>
+        <thead>
+            <tr>
+                <th>Header Column-1</th>
+                <th>Header Column-2</th>
+                <th>Header Column-3</th>
+                <th>Header Column-4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr ALIGN="center">
+                <td>Row 2-Item 1</td>
+                <td>Row 2-Item 2</td>
+                <td rowspan="2">
+                    <h4>Row 2 : Nasted Table 1</h4>
+                    <table BORDER="2" ALIGN="center" width="80%" ellspacing="2" cellpadding="2">
+                        <tr ALIGN="center">
+                            <th>Row 1 Header</th>
+                            <td>Item</td>
+                        </tr>
+                        <tr ALIGN="center">
+                            <th>Row 2 Header</th>
+                            <td>Item</td>
+                        </tr>
+                        <tr ALIGN="center">
+                            <th>Row 3 Header</th>
+                            <td>Item</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Row 2-Item 4<br>A Second Line</td>
+            </tr>
+
+            <tr ALIGN="center">
+                <td>
+                    <h4>Row 3 : Nasted Table 2</h4>
+                    <table BORDER="2" ALIGN="center" width="80%" ellspacing="2" cellpadding="2">
+                        <tr ALIGN="center">
+                            <th>Row 1 Header</th>
+                            <td>Item</td>
+                        </tr>
+                        <tr ALIGN="center">
+                            <th>Row 2 Header</th>
+                            <td>Item</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Row 3-Item 2</td>
+                <td rowspan="2">Row 3-Item 3</td>
+            </tr>
+
+            <tr ALIGN="center">
+                <td>Row 4-Item 1</td>
+                <td>Row 4-Item 2</td>
+                <td>Row 4-Item 3</td>
+            </tr>
+
+            <tr ALIGN="center">
+                <td colspan="4">Row 5 - Last Row Of Outer Table</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
