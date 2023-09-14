@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice-8</title>
+</head>
+
+<body>
+    <fieldset style="height: 600px; width: 20%; margin:  0px auto;">
+        <h2 style="text-align: center;">Student Registration Form</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="img">Student image:</label>
+            <input type="image" src="/Images/image.png" width="20%">(less than 5mb)<br><br>
+
+            <label for="sname">Student Name:</label>
+            <input type="text" placeholder="Full Name"><br><br>
+
+            <label for="fname">Father's Name:</label>
+            <input type="text" placeholder="Father's Full Name"><br><br>
+
+            <label for="mname">Mother's Name:</label>
+            <input type="text" placeholder="Mother's Full Name"><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female
+            <input type="radio" name="gender" id="other">Other <br><br>
+
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" placeholder="date"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="email"><br><br>
+
+            <label for="level">Level:</label>
+            <select name="level" id="level">
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="UG">Undergraduate</option>
+                <option value="PG">Postgraduate</option>
+            </select><br><br>
+
+            <label for="department">Department:</label>
+            <select name="department" id="department">
+                <option value="B.Sc">B.Sc</option>
+                <option value="M.Sc">M.Sc</option>
+                <option value="CE">Computer Engineering</option>
+                <option value="EE">Electrical Engineering</option>
+                <option value="CE">Civil Engineering</option>
+                <option value="CE">Chemical Engineering</option>
+            </select><br><br>
+
+            <label for="number">Phone Number:</label>
+            <input type="number" placeholder="number"><br><br>
+
+            <input type="submit" value="Submit">
+
+    </fieldset>
+</body>
+
+</html>
